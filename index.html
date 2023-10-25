@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Resto</title>
+
+
+
+
+    <body>
+        <header>
+            <a href="#" class="logo"><span>Liban R</span>esto</a>
+            <div class="menuToggle" onclick="toggleMenu();"></div>
+            <ul class="navbar">
+                <li><a href="#banniere" onclick="toggleMenu();">Accueil</a></li>
+                <li><a href="#apropos" onclick="toggleMenu();">A propos</a></li>
+                <li><a href="#menu" onclick="toggleMenu();">Menu</a></li>
+                <li><a href="#expert" onclick="toggleMenu();">Expert</a></li>
+                <li><a href="#temoignage" onclick="toggleMenu();">Temoignage</a></li>
+                <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+                <a href="#" class="btn-reserve" onclick="toggleMenu();">Reservation</a>
+            </ul>
+        </header>
+        <section class="banniere" id="banniere">
+            <div class="contenu">
+                <h2>Que Des Plats Délicieux</h2>
+                <p>Bienvenue dans notre monde culinaire, où chaque plat est une œuvre d'art. Nous vous invitons à découvrir notre sélection de plats délicieux, créés avec soin et amour par nos chefs talentueux.</p>
+                <a href="#menu" class="btn1">Notre Menu</a>
+                <a href="#contact" class="btn2">Reservation</a>
+            </div>
+        </section>
+        <section class="apropos" id="apropos">
+            <div class="row">
+                <div class="col50">
+                    <h2 class="titre-texte"><span>A</span> Propos De Nous</h2>
+                    <p>
+                        Notre restaurant, situé au cœur de la ville, offre une cuisine authentique et savoureuse dans un environnement convivial et chaleureux. Nous avons ouvert nos portes pour partager notre passion pour les saveurs locales et nous offrir à la communauté. Notre
+                        mission est de créer un espace où tout le monde peut se sentir à l'aise et profiter des meilleurs plats de notre région. Notre équipe, composée de chefs talentueux et de serveurs attentifs, travaille dur pour vous offrir une expérience
+                        culinaire inoubliable. N'hésitez pas à visiter notre restaurant pour découvrir nos délicieuses saveurs.<br/> Réservez votre table aujourd'hui et venez partager notre passion pour la cuisine locale avec nous.
+                        Pour toute question ou réservation, n'hésitez pas à nous contacter à l'adresse suivante :<br/><b> Beirut - Hamra Street, +961-76-305-892, hamzaabbass@outlook.fr</b>.
+                    </p>
+                </div>
+                <div class="col50">
+                    <div class="img img1">
+                        <img src="images/aProposDeNous.jpg" alt="image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="menu" id="menu">
+            <div class="titre">
+                <h2 class="titre-texte"><span>M</span>enu</h2>
+                <p>Bienvenue, découvrez notre menu chez LibanResto, où chaque plat est une œuvre d'art. </p>
+            </div>
+            <div class="contenu">
+                <div class="box">
+                    <div class="imbox">
+                        <img src="images/poutine-plat-typique-quebecois.jpg" alt="">
+                        <div class="overlay">
+                            <p>Impossible d’aborder les spécialités du Québec sans parler de la poutine ! C’est le plat typique québécois le plus populaire en France. Si vous ne le connaissez pas, ce met consiste en une énorme assiette de frites, recouverte
+                                de fromage fondu – du cheddar en grains, bien souvent – et de sauce brune comme la sauce barbecue, ou parfois même de bouillon de viande. Un plat traditionnel québécois, calorique et réconfortant : tout ce que l’on souhaite
+                                après une longue journée de découvertes !</p>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h3>La poutine</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imbox">
+                        <img src="images/feves-au-lard-plat-typique-quebecois-e1541830918995.png.png" alt="">
+                        <div class="overlay">
+                            <p>C’est un plat typique québécois présent depuis les débuts de la colonie. Ce plat est composé de haricots blancs ou noirs, auxquels on mêle du lard, des oignons, de la mélasse et du sirop d’érable (pour la touche sucrée).</p>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h3>Les fèves au lard</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imbox">
+                        <img src="images/dcp_2409-768x556.jpg" alt="">
+                        <div class="overlay">
+                            <p>La tourière est un des plats traditionnels québécois les plus populaires. Cette délicieuse tourte à la viande se compose d’un fond de tarte garni de boeuf ou de porc, puis assaisonné d’épices avant d’être cuite au four. Elle
+                                se mange généralement avec du ketchup. Chaque famille et chaque restaurant possède sa propre recette : n’hésitez pas à en déguster plusieurs !</p>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h3>La tourtière</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imbox">
+                        <img src="images/soupe-aux-pois-plat-typique-quebec-e1541831548265.png.png" alt="">
+                        <div class="overlay">
+                            <p>Comme les fèves au lard, la soupe aux pois est consommée au Québec depuis les premiers temps de la colonie. La légende veut que ces deux plats aient permis aux premiers habitants de survivre durant les longs mois d’hiver. En
+                                plus de la soupe aux pois, nous vous recommandons de goûter la soupe au fromage ou la soupe à la bière, moins historiques mais toutes aussi délicieuses !</p>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h3>La soupe aux pois</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imbox">
+                        <img src="images/pate-chinois-plat-typique-quebec-e1541832062750.jpg.jpeg" alt="">
+                        <div class="overlay">
+                            <p>Vous l’aurez compris, la gastronomie québécoise est constituée de plats rustiques, consistants et délicieux. Le pâté chinois n’est pas un met oriental, c’est une forme de hachis parmentier auquel est ajouté du maïs. Il était
+                                servi aux travailleurs asiatiques du 19ème siècle, ce qui lui a conféré ce nom. Le pâté chinois est un plat typique québécois, très apprécié des locaux !</p>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h3>Le pâté chinois</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imbox">
+                        <img src="images/smoked-meat-plat-typique-quebecois-e1541832201497.jpg.jpeg" alt="">
+                        <div class="overlay">
+                            <p>Aussi connu sous le nom de « Smoked Meat », le sandwich à la viande fumée est un plat traditionnel québécois qui provient de la communauté juive du pays. C’est une spécialité typiquement montréalaise. Elle est constituée de
+                                plusieurs tranches de poitrine de bœuf, de pain de seigle, souvent accompagnée de frites, de salades de chou, de cornichons et autres condiments.</p>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h3>Le Sandwich à la viande fumée</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imbox">
+                        <img src="images/homard-plat-typique-quebecois-e1541832319114.jpg.jpeg" alt="">
+                        <div class="overlay">
+                            <p>Profitez de votre séjour au Québec pour déguster le homard de la Gaspésie et des îles de la Madeleine ! Le homard de ces régions se déclinent sous différentes recettes : bouilli, aux herbes et aux épices, et même à la bière.
+                                Il est parfois accompagné de crevettes de Matane, une autre spécialité du Québec !</p>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h3>Le homard</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imbox">
+                        <img src="images/pouding-chomeur-plat-typique-quebecois-e1541832922464.png.png" alt="">
+                        <div class="overlay">
+                            <p>Le pouding chômeur est le grand classique des desserts au Québec ! Il a été inventé pendant la grande dépression. Apprécié des classes populaires et très économique, son nom provient de cette période difficile où les sans-emplois
+                                étaient nombreux. Ce plat se prépare soit en versant du sirop de l’érable sur la pâte, qui s’imbibe en levant, soit avec de la cassonade. Ce dessert délicieux et moelleux s’accompagne souvent d’une boule de glace !</p>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h3>Le pouding chômeur</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imbox">
+                        <img src="images/tire-erable-maple-toffee-plat-typique-quebecois-e1541833333737.jpg.jpeg" alt="">
+                        <div class="overlay">
+                            <p>Ce dessert se trouve dans les cabanes à sucre. Il consiste en du sirop d’érable bouilli (pour concentrer les sucres) qui est ensuite versé sur de la neige pour le durcir. Avec un bâtonnet de bois, on accroche et enroule la
+                                « tire » pour former un « suçon à l’érable ».</p>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h3>La tire sur la neige ou tire d’érable</h3>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="titre">
+                <a href="#" class="btn1">Voir Plus</a>
+            </div>
+        </section>
+        <section class="expert" id="expert">
+            <div class="titre">
+                <h2 class="titre-texte">Nos <span>E</span>xperts</h2>
+                <p>Rencontrez nos experts chez LibanResto, où chaque repas est une œuvre culinaire d'une qualité exceptionnelle.</p>
+            </div>
+            <div class="contenu">
+                <div class="box">
+                    <div class="imbox">
+                        <img src="images/equipe1.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Ayane Moussa</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imbox">
+                        <img src="images/equipe2.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Anthony Senjer</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imbox">
+                        <img src="images/equipe3.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Moussa Chaar</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imbox">
+                        <img src="images/equipe4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Pamela Haddad</h3>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="temoignage" id="temoignage">
+            <div class="titre blanc">
+                <h2 class="titre-texte">Que Disent Nos <span>C</span>lients</h2>
+                <p>Découvrez ce que nos clients ont à dire sur LibanResto, où la satisfaction est notre priorité. </p>
+            </div>
+            <div class="contenu">
+                <div class="box">
+                    <div class="imbox">
+                        <img src="./images/t4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <p div="BLANCHE">'Les plats sont toujours à la hauteur de nos attentes à LibanResto. La qualité est exceptionnelle.</p>
+                        <h3>Nathalie Morin</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imbox">
+                        <img src="images/t2.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <p div="BLANCHE">Le service est impeccable et le menu est toujours frais et varié. Je recommande vivement LibanResto.</p>
+                        <h3>Mark Rupp</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imbox">
+                        <img src="images/AngieBolen.webp" alt="">
+                    </div>
+                    <div class="text">
+                        <p div="BLANCHE">Les plats sont toujours tendres et savoureux à LibanResto. Le service est excellent et l'ambiance est conviviale.</p>
+                        <h3>Angie Bolen</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="titre noir">
+                <h2 class="titre-text"><span>C</span>ontact</h2>
+                <p>Contactez-nous aujourd'hui pour une réservation ou pour poser des questions à LibanResto.</p>
+                <p>Nous sommes là pour vous aider.</p>
+                <br/>
+            </div>
+            <div class="contactform">
+                <form action="index.html">
+                    <h3>Envoyer un message</h3>
+                    <div class="inputboite">
+                        <input type="text" placeholder="Nom" required>
+                    </div>
+                    <div class="inputboite">
+                        <input type="text" placeholder="email" required>
+                    </div>
+                    <div class="inputboite">
+                        <textarea placeholder="message" required></textarea>
+                    </div>
+                    <div class="inputboite">
+                        <input type="submit" value="envoyer">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+
+        <div class="copyright">
+            <p>Copyright © LebResto Restaurant | Design: <a href="https://instagram.com/hhamzaabbass?utm_medium=copy_link">Hamza Abbass </a>Tous droits reservé</p>
+        </div>
+
+        <script type="text/javascript">
+            window.addEventListener('scroll', function() {
+                const header = document.querySelector('header');
+                header.classList.toggle("sticky", window.scrollY > 0);
+            });
+
+            function toggleMenu() {
+                const tmenuToggle = document.querySelector('.menuToggle');
+                const navbar = document.querySelector('.navbar');
+                navbar.classList.toggle('active');
+                menuToggle.classList.toggle('active');
+
+            }
+        </script>
+
+    </body>
+
+</html>
